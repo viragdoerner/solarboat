@@ -1,0 +1,8 @@
+.designer img {
+  display: flex;
+  width: 300px;
+}
+.designer {
+  justify-content: center;
+  display: flex;
+}
