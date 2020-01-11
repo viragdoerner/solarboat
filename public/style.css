@@ -6,3 +6,14 @@
   justify-content: center;
   display: flex;
 }
+
+body {
+    background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center, center top;
+    /* <------ kesobb torolheto - fake oldal tartalomkent szolgal */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
