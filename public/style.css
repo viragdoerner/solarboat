@@ -7,13 +7,43 @@
   display: flex;
 }
 
-body {
+body{
     background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("bg.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center center, center top;
-    /* <------ kesobb torolheto - fake oldal tartalomkent szolgal */
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    background-size: 100% 100%, 100% auto;
+    background-position: center bottom, center top;
+    
 }
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* <------a footer jó helyen van, de a szinatmenet szar;  ha atirom min-height-re akkor a footer elbaszodik de a szinatmenet jó helyre kerül */
+}
+#app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    background: #ff0;
+    padding: 10px;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 168px; /* Height of the footer */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 168px; /* Height of the footer */
+}
+

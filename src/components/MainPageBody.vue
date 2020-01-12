@@ -1,7 +1,12 @@
 <template>
-    <div >
+    <div id="body">
         <h1>Én vagyok a főoldal</h1>
-        <p style="margin-top: 1000px;" >testing background</p>
+        <p style="margin-top: 100px;">testing background</p>
+        <p style="margin-top: 100px;">testing background</p>
+        <p style="margin-top: 100px;">testing background</p>
+        <p style="margin-top: 100px;">testing background</p>
+        <p style="margin-top: 100px;">testing background</p>
+
     </div>
 </template>
 

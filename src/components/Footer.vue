@@ -1,5 +1,5 @@
 <template>
-  <div class="designer footer">
+  <div class="designer" id="footer">
     <img src="../imges/schdesign.png" />
   </div>
 </template>
@@ -9,10 +9,3 @@ export default {
   name: "Footer"
 };
 </script>
-
-<style>
-    .footer {
-        clear: both;
-        position: relative;
-    }
-</style>
